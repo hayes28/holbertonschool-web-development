@@ -127,5 +127,5 @@ Under the banner, we will add the quote block:
     - A text
 And… that’s it for the moment - the result should not be shiny, don’t worry, CSS is coming…
 
-
-
+Contributors:
+Heather Hayes <https://github.com/hayes28>
