@@ -1,5 +1,5 @@
 # HTML, advanced
-
+The first step in replicating a webpage using ONLY HTML. In this and coming projects, you will implement from scratch a webpage from a designer file. For this first project, you will focus on the HTML structure only - no CSS, no style - just pure HTML semantic.
 ### Objectives
 #### General
   + What is HTML
@@ -33,7 +33,7 @@ For this first project, you will focus on the HTML structure only - no CSS, no s
   + Inside this header:
     - Add a link element with an image inside
     - Add a block of 3 link elements
- 
+
 2. Banner
 ##### Now, the banner under the header:
 ![Banner](https://github.com/hayes28/holbertonschool-web-development/assets/107968573/b0236d27-16e8-4e7e-8dbe-a39d27e158c7)
@@ -45,7 +45,7 @@ Under the header, add a main element with inside a section element.
     - An heading tag (don’t forget to use the correct heading value)
     - A text element
     - A button tag
- 
+
   + Another block with inside:
     - Another heading tag (same, be careful about which one you are using)
     - A block containing 4 blocks - each block with inside:
