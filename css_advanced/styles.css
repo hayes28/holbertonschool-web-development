@@ -1,0 +1,215 @@
+body {
+    font-family: (Source Sans Pro), sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/holbertonschool-web-development/css_advanced/images/backgroundsmile.png");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 170px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px; /* adjust as necessary */
+    margin-right: 15px; /* adjust as necessary */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+}
+
+.menu a {
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.main_part-content h1 {
+    /* Get schooled */
+    position: absolute;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 26%;
+    right: 26%;
+    top: 10%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+/* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_part {
+/* main_part */
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+}
+
+.expressions {
+    /* smile, grin, laugh */
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 39%;
+    right: 26%;
+    width: 25%;
+    top: 33%; /* Adjust this value to move the elements lower down on the page */
+    height: 20px;
+    font-family: (Source Sans Pro);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.smile,
+.grin,
+.laugh {
+    height: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.background {
+/* background */
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+  .title {
+    /* specify title styling here */
+  }
+
+#button-background {
+/* Button */
+    position: absolute;
+    font-family: Source Sans Pro;
+    width: 200px;
+    height: 50px;
+    left: 44%;
+    right: 44%;
+    top: 39%;
+    bottom: 57%;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.main-button a {
+    /* REGISTER FOR FREE */
+
+    height: 18px;
+    left: 12.35%;
+    right: 12.96%;
+    top: 18%;
+    font-family: (Source Sans Pro);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-button {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C271FF;
+    border-radius: 22px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.learn-h2 {
+    /* Learn from the pros */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bold-purple {
+    /* Learn from the pros */
+    color: #C271FF;
+    position: absolute;
+    height: 40px;
+    left: 30%;
+    right: 39%;
+    top: 66%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.thin-white {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    height: 40px;
+    left: 41.94%;
+    right: 32%;
+    top: 66%;
+}
+
+  .pros {
+    /* specify pros container styling here, possibly use grid or flex for layout */
+  }
+
+  .pro {
+    /* specify individual pro styling here */
+  }
+
+  .avatar {
+    /* specify avatar styling here */
+  }
+
+  .award, .pro-name {
+    /* specify award and pro name styling here */
+  }
