@@ -1,234 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- 1.Import the style, Import styles.css in the head of your index.html -->
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
     <title>Smile School</title>
+    <link rel="stylesheet" href="styles.css">
+
   </head>
   <body>
+    <!-- 2. Add the header and Banner -->
     <header class="header">
-      <div class="logo">
-        <img src="images/logo.png" alt="logo">
+      <div class="menu-top">
+        <div class="logo">
+          <a  href="#"><img src="images/logo.png" alt="Smile School"></a>
+        </div>
       </div>
-      <nav class="menu">
-        <a href="#">COURSES</a>
-        <a href="#">PRICING</a>
-        <a href="#">LOGIN</a>
-      </nav>
+      <div class="menu-top-right">
+        <a href=""><div class="courses">COURSES</div></a>
+        <a href=""><div class="pricing">PRICING</div></a>
+        <a href=""><div class="login">LOGIN</div></a>
+      </div>
     </header>
-    <main class="SchoolPage">
-      <section class="main_part">
-            <!-- Banner Section -->
-            <div class="main_part-content">
-              <h1>Get Schooled</h1>
-              <div class="expressions">
-              <div class="smile">SMILE</div>
-              <div class="grin">GRIN</div>
-              <div class="laugh">LAUGH</div></div>
-              <div id="button-background">
-                <button class="main-button">
-                  <a href="#">REGISTER FOR FREE</a></button>
-              </div>
+    <!-- Main, first block -->
+    <main>
+      <section>
+              <h1 class="getschooled">Get Schooled</h1>
+              <div class="emotion">
+              <p class="smile">SMILE</p>
+              <p class="grin">GRIN</p>
+              <p class="laugh">LAUGH</p>
             </div>
-            <h2 class="learn-h2"><span class="bold-purple">Learn</span>
-              <span class="thin-white">from the pros</span></h2>
+
+            <div class="button-frame">
+              <div class="register-button">
+                <p>REGISTER FOR FREE</p>
+                <div class="button-background"></div>
+                </div>
+            </div>
+            <div class="learn-from-pros">
+              <h2>
+                <span class="learn">Learn</span>
+                <span class="from-pros">from the pros</span>
+              </h2>
+      </section>
+
+      <section>
         <!-- Pros Section -->
-        <div class="pros">
+        <div class="pros-container">
           <div class="pro">
-            <img class="avatar" src="path-to-image-1" alt="Pro 1">
-            <h3 class="pro-title">Smile of the Year</h3>
-            <p class="pro-name">Pro 1</p>
+            <div class="avatar">
+            <img src="images/avatar.png" alt="Pro 1">
+            <div class="mask"></div>
+            <div class="mask"></div>
+            </div>
+            <h3 class="pro-name">Philip Massey</h3>
+            <p class="pro-title">« Smile of the year » 2018 - 2019</p>
         </div>
           <div class="pro">
-            <img class="avatar" src="path-to-image-2" alt="Pro 2">
-            <h3 class="pro-title">Grin of the Year</h3>
-            <p class="pro-name">Pro 2</p>
-        </div>
+            <div class="avatar">
+              <img src="images/avatar2.png" alt="Pro 1">
+              <div class="mask"></div>
+              <div class="mask"></div>
+              </div>
+              <h3 class="pro-name">Nannie Lawrence</h3>
+              <p class="pro-title">Best « little smile » 2017</p>
+          </div>
           <div class="pro">
-            <img class="avatar" src="path-to-image-3" alt="Pro 3">
-            <h3 class="pro-title">Laugh of the Year</h3>
-            <p class="pro-name">Pro 3</p>
-        </div>
+            <div class="avatar">
+              <img src="images/avatar3.png" alt="Pro 1">
+              <div class="mask"></div>
+              <div class="mask"></div>
+              </div>
+              <h3 class="pro-name">Bruce Walters</h3>
+              <p class="pro-title">Best « Friend Smile » live performance 2019</p>
+          </div>
           <div class="pro">
-            <img class="avatar" src="path-to-image-4" alt="Pro 4">
-            <h3 class="pro-title">Smile of the Month</h3>
-            <p class="pro-name">Pro 4</p>
+            <div class="avatar">
+              <img src="images/avatar4.png" alt="Pro 1">
+              <div class="mask"></div>
+              <div class="mask"></div>
+              </div>
+              <h3 class="pro-name">Henry Hughes</h3>
+              <p class="pro-title">« 24h smiles » winner 2016 - 2019</p>
           </div>
         </div>
         </section>
+
         <section>
           <!-- Quotes Section -->
-          <div>
-            <img src="path-to-image" alt="IMAGE">
-          </div>
-          <div>
-            <blockquote>QUOTE</blockquote>
-            <p>AUTHOR</p>
-            <p>SUB-TITLE</p>
+          <div class="quote-section">
+            <div class="quote-content">
+            <img src="images/avatar5.png" alt="IMAGE">
+              <div class="quote-info">
+                <blockquote>« Those tutorials are concise and go straight to the point.
+                  I can’t think of a better place to learn smiling. And it’s so fun!</blockquote>
+                <div class="quote-details">
+                  <p class="name-person">Person Name</p>
+                  <p class="title">weather presenter</p>
+              </div>
+              </div>
+            </div>
           </div>
         </section>
-        <section>
+
+        <section class="after-quote-section", style="background-color: #ffffff;">
+          <!--Closes the gap if you use the styling in the section and not a div -->
           <!-- Videos Section -->
-          <h1>TITLE</h1>
+          <div class="popular">
+            <h2>
+              <span class="most">Most</span>
+              <span class="pop">Popular</span>
+              <span class="tutorials">Tutorials</span>
+            </h2>
+          </div>
+
           <!-- A block containing 4 video blocks -->
-          <div>
-            <div>
             <!-- Each video block composed with an image, an heading, and a text -->
             <!-- then Author and rating blocks -->
-            <img src="path-to-image" alt="IMAGE">
-            <h2>TITLE</h2>
-            <p>TEXT</p>
-            <!-- block for the Author -->
-            <div>
-              <p>AUTHOR</p>
-              <img src="path-to-image" alt="IMAGE">
-              <h3>TITLE</h3>
+            <div class="video-blocks">
+              <div class="video-block">
+                  <img src="images/tuto_1.png" alt="IMAGE">
+                  <img src="images/tuto_2.png" alt="IMAGE">
+                  <img src="images/tuto_3.png" alt="IMAGE">
+                  <img src="images/tuto_4.png" alt="IMAGE">
+                </div>
             </div>
-            <!-- block for the rating -->
-            <div>
-              <p>TEXT</p>
-              <img src="path-to-image" alt="IMAGE">
-              <p>TEXT</p>
-          </div>
-          </div>
-          </div>
-          <div>
-            <div>
-            <!-- Each video block composed with an image, an heading, and a text -->
-            <!-- then Author and rating blocks -->
-            <img src="path-to-image" alt="IMAGE">
-            <h2>TITLE</h2>
-            <p>TEXT</p>
-            <!-- block for the Author -->
-            <div>
-              <p>AUTHOR</p>
-              <img src="path-to-image" alt="IMAGE">
-              <h3>TITLE</h3>
-            </div>
-            <!-- block for the rating -->
-            <div>
-              <p>TEXT</p>
-              <img src="path-to-image" alt="IMAGE">
-              <p>TEXT</p>
-          </div>
-          </div>
-          </div>
-          <div>
-            <div>
-            <!-- Each video block composed with an image, an heading, and a text -->
-            <!-- then Author and rating blocks -->
-            <img src="path-to-image" alt="IMAGE">
-            <h2>TITLE</h2>
-            <p>TEXT</p>
-            <!-- block for the Author -->
-            <div>
-              <p>AUTHOR</p>
-              <img src="path-to-image" alt="IMAGE">
-              <h3>TITLE</h3>
-            </div>
-            <!-- block for the rating -->
-            <div>
-              <p>TEXT</p>
-              <img src="path-to-image" alt="IMAGE">
-              <p>TEXT</p>
-          </div>
-          </div>
-          </div>
-          <div>
-            <div>
-            <!-- Each video block composed with an image, an heading, and a text -->
-            <!-- then Author and rating blocks -->
-            <img src="path-to-image" alt="IMAGE">
-            <h2>TITLE</h2>
-            <p>TEXT</p>
-            <!-- block for the Author -->
-            <div>
-              <p>AUTHOR</p>
-              <img src="path-to-image" alt="IMAGE">
-              <h3>TITLE</h3>
-            </div>
-            <!-- block for the rating -->
-            <div>
-              <p>TEXT</p>
-              <img src="path-to-image" alt="IMAGE">
-              <p>TEXT</p>
-          </div>
-          </div>
-          </div>
         </section>
-        <section>
+
+        <section class="after-popular-section", style="background-color: #071629;">
           <!-- Membership Section -->
-          <h1>TITLE</h1>
-          <div>
-            <div>
-              <img src="path-to-image" alt="IMAGE">
-              <h2>TITLE</h2>
-              <p>TEXT</p>
-            </div>
-            <div>
-              <img src="path-to-image" alt="IMAGE">
-              <h2>TITLE</h2>
-              <p>TEXT</p>
-            </div>
-            <div>
-              <img src="path-to-image" alt="IMAGE">
-              <h2>TITLE</h2>
-              <p>TEXT</p>
-            </div>
-            <div>
-              <img src="path-to-image" alt="IMAGE">
-              <h2>TITLE</h2>
-              <p>TEXT</p>
+          <div class="free-membership">
+          <h2>
+            <span class="free">Free</span>
+            <span class="membership">Membership</span>
+          </h2>
+          </div>
+          <div class="membership-blocks">
+            <div class="membership-block">
+              <img src="images/dot_1.png" alt="IMAGE">
+              <img src="images/dot_2.png" alt="IMAGE">
+              <img src="images/dot_3.png" alt="IMAGE">
+              <img src="images/dot_4.png" alt="IMAGE">
             </div>
           </div>
-          <button>BUTTON</button>
+          <div class="button-frame2">
+            <div class="register-button">
+              <p>REGISTER FOR FREE</p>
+              <div class="button-background"></div>
+              </div>
+          </div>
         </section>
-        <section>
+
+        <section class="after-quote-section" style="background-color: #ffffff;">
           <!-- FAQ Section -->
-          <h1>TITLE</h1>
+          <h1 class="faq">F.A.Q.</h1>
           <!-- A block that contains 2 “row blocks” -->
-          <div>
+          <div class="faq-blocks">
             <!-- Each “row block” contains 2 “item blocks” -->
-            <div>
-              <!-- Each “item block” is composed of an heading and a text -->
-              <div>
-                <h2>TITLE</h2>
-                <p>TEXT</p>
+            <div class="faq-row">
+              <!-- Each “item block” is composed of an image and text -->
+              <div class="faq-item">
+                <img src="images/Q_1.png">
               </div>
-              <div>
-                <h2>TITLE</h2>
-                <p>TEXT</p>
+              <div class="faq-item">
+                <img src="images/Q_2.png">
               </div>
             </div>
-            <!-- Second “row block” -->
-              <div>
-                <div>
-                <h2>TITLE</h2>
-                <p>TEXT</p>
+            <div class="faq-row">
+              <div class="faq-item">
+                <img src="images/Q_3.png">
+              </div>
+              <div class="faq-item">
+                <img src="images/Q_4.png">
+              </div>
             </div>
-            <div>
-                <h2>TITLE</h2>
-                <p>TEXT</p>
-            </div>
-          </div>
           </div>
         </section>
+
     </main>
-    <footer>
-    <!-- A global block (used later for centering the footer content) -->
-    <div>
-      <!-- A “row block” with an image and a block with images with link and a text -->
-      <div>
-        <!-- LOGO for footer -->
-        <img src="path-to-image" alt="IMAGE">
-      <div>
-        <a href=""#><img src="path-to-image" alt="IMAGE"></a>
-        <a href=""#><img src="path-to-image" alt="IMAGE"></a>
-        <a href=""#><img src="path-to-image" alt="IMAGE"></a>
+    <footer style="background-color: #071629;">
+      <!-- A global block (used later for centering the footer content) -->
+      <div class="footer-content" style="background-color: #071629;">
+        <!-- A “row block” with an image and a block with images with link and a text -->
+        <div class="footer-row">
+          <!-- LOGO for footer -->
+          <img src="images/logo.png" alt="logo">
+          <div class="social-links">
+            <a href=""><img src="images/Facebook_White.png" alt="Facebook"></a>
+            <a href=""><img src="images/Twitter_White.png" alt="Twitter"></a>
+            <a href=""><img src="images/Instagram_White.png" alt="Instagram"></a>
+          </div>
+        </div>
+        <p>©smileschool 2020</p>
       </div>
-    </div>
-    </div>
-    <p>TEXT</p>
     </footer>
-  </body>
-</html>
+
