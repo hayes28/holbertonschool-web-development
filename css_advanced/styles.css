@@ -33,9 +33,9 @@ body {
     margin: 0;
     padding: 0;
     background-size: cover;
-    background-image: url("/holbertonschool-web-development/css_advanced/images/backgroundsmile.png");
+    background-image: url("images/backgroundsmile.png");
     background-attachment: fixed;
-}
+} /*Fixed for background image*/
 
 .header {
     display: flex;
@@ -106,7 +106,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -9%; /* adjust margin to position this block */
+    /*margin-top: -9%; /* adjust margin to position this block */
 }
 
 .smile,
